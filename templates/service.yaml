@@ -1,6 +1,0 @@
-apiVersion: v1
-kind: Service
-metadata:
-  name: {{ template "pkspoc.fullname" . }}
-  labels:
-{{ include "pkspoc.labels" . | indent 4 }}
