@@ -12,7 +12,7 @@ pipeline {
     stage('Validate Environment') {
       steps {
         container('jx-base') {
-         sh 'jx step helm release pkstest1'
+         sh 'jx step helm release eswarachodisetti_pkstest1_master'
     //        sh 'jx step helm install . --name pkstest1'
       
         }
