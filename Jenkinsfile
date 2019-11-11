@@ -13,7 +13,7 @@ pipeline {
       steps {
         container('jx-base') {
      //    sh 'jx step helm package pkspoc --debug'
-            sh 'jx step helm install . --name pkspoc'
+            sh 'jx step helm install . --name pkspoc --debug'
       
         }
       }
