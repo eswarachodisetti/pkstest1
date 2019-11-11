@@ -14,7 +14,7 @@ pipeline {
         container('jx-base') {
       //   sh 'jx step helm release eswarachodisetti_pkstest1_master'
        //   sh 'jx step create version pr -k charts -n eswarachodisetti_pkstest1_master-1.0.0.tgz'
-            sh 'jx step helm install --name=eswarachodisetti_pkstest1_master'
+            sh 'jx step helm install --name eswarachodisetti_pkstest1_master'
       
         }
       }
